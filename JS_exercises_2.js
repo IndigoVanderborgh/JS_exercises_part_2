@@ -20,3 +20,5 @@ if (age < 6) {
 }else if (age < 66) {
     console.log("senior citizen discount")
 }
+
+// This exercise is to demonstrate knowledge on conditional statements (if/else, else if)

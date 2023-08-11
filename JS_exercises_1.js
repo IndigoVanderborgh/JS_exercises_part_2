@@ -18,3 +18,5 @@ function logData() {
 }
 
 logData()
+
+// This exercise is to demonstrate knowledge on basic object creation
