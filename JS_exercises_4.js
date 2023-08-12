@@ -11,3 +11,5 @@ largeCountries.push("Pakistan")
 largeCountries.shift()
 largeCountries.unshift("China")
 console.log(largeCountries)
+
+// This exercise is to demonstrate knowledge on pop and shift.
