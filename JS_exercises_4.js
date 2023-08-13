@@ -6,10 +6,10 @@ let largeCountries = ["Tuvalu","India","USA","Indonesia","Monaco"]
 // Use push() & pop() and their counterparts unshift() & shift()
 // Google how to use unshift() and shift()
 
-largeCountries.pop()
-largeCountries.push("Pakistan")
-largeCountries.shift()
-largeCountries.unshift("China")
-console.log(largeCountries)
+largeCountries.pop() // 
+largeCountries.push("Pakistan") // 
+largeCountries.shift() // 
+largeCountries.unshift("China") // 
+console.log(largeCountries) // 
 
-// This exercise is to demonstrate knowledge on pop and shift.
+// This exercise is to demonstrate knowledge on arrays, specifially pop and shift.
