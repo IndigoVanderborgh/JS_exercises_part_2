@@ -16,6 +16,6 @@ largeCountries.pop() // removes last element from largeCountries array
 largeCountries.push("Pakistan") // adds last element "Pakistan" to largeCountries array
 largeCountries.shift() // removes first element from largeCountries array
 largeCountries.unshift("China") // adds first element "China" to largeCountries array
-console.log(largeCountries) // console log array
+console.log(largeCountries) // console log array largeCountries
 
-// This exercise is to demonstrate knowledge on arrays, specifially pop and shift.
+// This exercise is to demonstrate knowledge on arrays.
