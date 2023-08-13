@@ -11,7 +11,7 @@ The 5 largest countries in the world:
 */
 console.log("The 5 largest countries in the world:") // console logs string ""
 // for loop
-// var | beginning            |             end               |           count
+// var |   start            |             end               |           count
 // (let    i = 0;                i < largeCountries.length;                i++)
 for (let i = 0; i < largeCountries.length; i++) { // in practice
     console.log("- " + largeCountries[i]) // console logs array with string "- " in front
