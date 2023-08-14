@@ -8,3 +8,5 @@ function getHand() {
 }
 
 console.log(getHand())
+
+// This exercise is to demonstrate knowledge on basic math methods.
