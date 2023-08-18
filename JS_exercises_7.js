@@ -18,8 +18,16 @@
 // Which variables below should be changed from let to const?
 
 // The customer wants to order some stuff. Here are the details:
-let basePrice = 520
-let discount = 120
+
+// Here we have for variables, and to change them to const we look at which ones will not
+// change propertys, ie basePrice and discount
+// let basePrice = 520 -->  const basePrice = 520
+// let discount = 120 --> const discount = 120
+// let shippingCost = 12
+// let shippingTime = "5-12 days"
+
+const basePrice = 520
+const discount = 120
 let shippingCost = 12
 let shippingTime = "5-12 days"
 
@@ -28,7 +36,15 @@ shippingCost = 15
 shippingTime = "7-14 days"
 
 // Calculating the full price
-let fullPrice = basePrice - discount + shippingCost
+
+// Same here, we have a let to be change to const
+// let fullPrice = basePrice - discount + shippingCost --> const
+
+const fullPrice = basePrice - discount + shippingCost
 
 // Finally, notifying the customer
 console.log("Total cost: " + fullPrice + ". It will arrive in " + shippingTime)
+
+// const vs let summary
+// Const is when the variable will not be changed; remains static
+// let is when the variable will change, like a loop or counter.
