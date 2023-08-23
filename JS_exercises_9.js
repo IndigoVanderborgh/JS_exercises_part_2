@@ -29,3 +29,6 @@ myLeads.push("www.lead2.com")
 myLeads = JSON.stringify(myLeads)
 // 4. Console.log the string using typeof to verify that it's a string
 console.log(typeof myLeads)
+
+// this is essentially storing data locally. we are storing a string, and converting back and forth 
+// between string and aray and back to string.
